@@ -1,6 +1,6 @@
 import java.util.*;
 public class Area {
-    public static void main(String [] args){
+    public static void main(String[] args){
         System.out.println("Enter the height of triangle:");
         Scanner sc=new Scanner(System.in);
         float h,b;

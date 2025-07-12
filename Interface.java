@@ -10,7 +10,7 @@ class Test2 implements Test1{
         System.out.println("method 1");
     }
     public void meth2(){
-        System.out.println("method 2");
+        System.out.println("method 2"); 
     }
     public void meth3(){
         System.out.println("method 3");

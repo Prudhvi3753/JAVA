@@ -1,8 +1,8 @@
 class Customer{
-    public String name;
+    public Sorting name;
     public Long no;
     public int cusid;
-    public Customer(String name,Long no,int cusid){
+    public Customer(Sorting name,Long no,int cusid){
         this.name=name;
         this.no=no;
         this.cusid=cusid;
@@ -12,7 +12,7 @@ class Customer{
     }
 }
 class member extends Customer{
-    public member(String name,Long no,int cusid,String dob){
+    public member(Sorting name,Long no,int cusid,Sorting dob){
         super(name,no,cusid);
         
     }
@@ -26,7 +26,7 @@ class member extends Customer{
     }
 }
 public class shop {
-    public static void main(String[] args) {
+    public static void main(Sorting[] args) {
         member a=new member("prudhvi",9542650478L,121,"11-07-2005");
         a.display();
         a.PayBill();
